@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script> -->
+    <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <title>Programación de Dispositivos MÓVILES</title>
+    <style>
+      html,
+      body,
+      .block {
+        height: 100%;
+      }
+      nav ul li a:hover,
+      nav ul li a.active {
+        background-color: rgba(0, 0, 0, 0.1);
+      }
+      footer {
+        padding-left: 0;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="blue" class="block blue">
+      <nav
+        class="pushpin-demo-nav pin-bottom"
+        data-target="blue"
+        style="top: 869px;"
+      >
+        <div class="nav-wrapper light-blue">
+          <div class="container">
+            <a href="#" class="brand-logo">Esto debería ser un logo</a>
+            <ul id="nav-mobile" class="right hide-on-med-and-down">
+              <li>
+                <a href="./Murillo.html">MURILLO PALACIOS SALLY MARYURI</a>
+              </li>
+              <li><a href="#!">Blue Link 2</a></li>
+              <li><a href="#!">Blue Link 3</a></li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </div>
+
+    <div id="red" class="block red lighten-1">
+      <nav
+        class="pushpin-demo-nav pin-bottom"
+        data-target="red"
+        style="top: 869px;"
+      >
+        <div class="nav-wrapper red">
+          <div class="container">
+            <a href="#" class="brand-logo"
+              >Se supone que esto también debería ser otro logo</a
+            >
+            <ul id="nav-mobile" class="right hide-on-med-and-down">
+              <li>
+                <a href="./Murillo.html">MURILLO PALACIOS SALLY MARYURI</a>
+              </li>
+              <li><a href="#!">Red Link 2</a></li>
+              <li><a href="#!">Red Link 3</a></li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </div>
+
+    <div id="green" class="block green lighten-1">
+      <nav
+        class="pushpin-demo-nav pinned"
+        data-target="green"
+        style="top: 0px;"
+      >
+        <div class="nav-wrapper green">
+          <div class="container">
+            <a href="#" class="brand-logo"
+              >Y finalmente esto es otro logo, con mucha lógica</a
+            >
+            <ul id="nav-mobile" class="right hide-on-med-and-down">
+              <li>
+                <a href="./Murillo.html">MURILLO PALACIOS SALLY MARYURI</a>
+              </li>
+              <li><a href="#!">Green Link 2</a></li>
+              <li><a href="#!">Green Link 3</a></li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </div>
+
+    <div class="section no-pad-bot" id="index-banner">
+      <div class="container">
+        <br /><br />
+        <h1 class="header center orange-text">
+          Programación de Dipositivos Móviles
+        </h1>
+        <div class="row center">
+          <h5 class="header col s12 light">
+            Hola profe, espero se encuentre muy bien, este es el build que
+            genera Webpack.
+          </h5>
+        </div>
+        <div class="row center">
+          <a
+            href="http://materializecss.com/getting-started.html"
+            id="download-button"
+            class="btn-large waves-effect waves-light orange"
+            >Aquí puede acceder al Repositorio donde encontrará todo el código
+            fuente.</a
+          >
+        </div>
+        <br /><br />
+      </div>
+    </div>
+
+    <div class="fixed-action-btn">
+      <a class="btn-floating btn-large red">
+        <i class="large material-icons">mode_edit</i>
+      </a>
+      <ul>
+        <li>
+          <a class="btn-floating red"
+            ><i class="material-icons">insert_chart</i></a
+          >
+        </li>
+        <li>
+          <a class="btn-floating yellow darken-1"
+            ><i class="material-icons">format_quote</i></a
+          >
+        </li>
+        <li>
+          <a class="btn-floating green"
+            ><i class="material-icons">publish</i></a
+          >
+        </li>
+        <li>
+          <a class="btn-floating blue"
+            ><i class="material-icons">attach_file</i></a
+          >
+        </li>
+      </ul>
+    </div>
+
+    <div class="container">
+      <div class="input-field col s12">
+        <i class="material-icons prefix">textsms</i>
+        <input type="text" id="autocomplete-input" class="autocomplete" />
+        <label for="autocomplete-input"></label>
+      </div>
+      <div class="section">
+        <!--   Icon Section   -->
+        <div class="row">
+          <div class="col s12 m4">
+            <div class="icon-block">
+              <h2 class="center light-blue-text">
+                <i class="material-icons">flash_on</i>
+              </h2>
+              <h5 class="center">Aligerar desarrllo?</h5>
+
+              <p class="light">
+                Profe, me pregunto si usted puso instencionalmente que yo
+                hiciera de todos los del salón, esto con SASS. Puesto que para
+                hacerlo con SASS, toca configurar completamente un entorno de
+                Webpack. Además, cosa que también es un poco ilógica de hacer,
+                puesto que hay maneras mucho más fácil de implementarlo.
+              </p>
+            </div>
+          </div>
+
+          <div class="col s12 m4">
+            <div class="icon-block">
+              <h2 class="center light-blue-text">
+                <i class="material-icons">group</i>
+              </h2>
+              <h5 class="center">Enfocado a la experiencia de usuario</h5>
+
+              <p class="light">
+                Digo esto porque es contraproducente transpilar un SASS a CSS
+                cuando los CSS ya están hechos. Así que quisiera saber la razón
+                por la cual estamos haciendo un ejercicio que no tiene
+                absolutamente nada que ver con la materia, DESARROLLo de
+                dispositivos móviles.
+              </p>
+            </div>
+          </div>
+
+          <div class="col s12 m4">
+            <div class="icon-block">
+              <h2 class="center light-blue-text">
+                <i class="material-icons">settings</i>
+              </h2>
+              <h5 class="center">Fácil de usar</h5>
+
+              <p class="light">
+                Sobretodo la actividad que me asignó mucho menos tiene que ver
+                con lo que es la "razón" de usar una biblioteca/framework de
+                CSS. Puesto que usar una herramientas de estas es para Reducir
+                trabajo, y literalmente me asignó hacer nuevamente algo que ya
+                está hecho (transpilar de SASS a CSS).
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <br /><br />
+    </div>
+    <script>
+      var options = { direction: "left" };
+      document.addEventListener("DOMContentLoaded", function() {
+        var elems = document.querySelectorAll(".fixed-action-btn");
+        var instances = M.FloatingActionButton.init(elems, options);
+      });
+
+      document.addEventListener("DOMContentLoaded", function() {
+        var elems = document.querySelectorAll(".autocomplete");
+        console.log(M);
+        var instances = M.Autocomplete.init(elems, {
+          data: {
+            Apple: null,
+            Microsoft: null,
+            Google: "https://placehold.it/250x250"
+          }
+        });
+      });
+    </script>
+  </body>
+</html>
